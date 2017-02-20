@@ -1,5 +1,5 @@
 library(geonames)
 
 countryInfo <- GNcountryInfo()
-countryInfor %>%
+countryInfo %>%
   as_tibble()
